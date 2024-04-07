@@ -3,6 +3,9 @@ import { ref } from "vue";
 
 let message = ref("Hello World! This is a VueJS and Flask Starter Template.")
 
+setTimeout(() => {
+  message.value="Hello Ry"
+}, 3000);
 </script>
 
 <template>
